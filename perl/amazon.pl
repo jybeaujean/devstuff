@@ -18,7 +18,9 @@ use Data::Dumper;
 
 # Amazon key 
 my $ua = Net::Amazon->new(
-    token       => '1DVD1FGZBDGNTZM1DB82',
+    token       => '',
+    secret_key => '',
+    associate_tag => ''
 );
 
 # get ASIN
